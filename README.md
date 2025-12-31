@@ -1,121 +1,96 @@
-A full-stack Movie Rating & Review Blog Application built using the MERN stack.
-Users can view movies, read detailed descriptions, and explore ratings, while the platform demonstrates complete frontend–backend integration using modern web technologies.
+# 🎬 Movie Rating Blog Application (MERN Stack)
 
-This project is designed as a learning-focused MERN application and showcases REST APIs, database integration, and React-based UI development.
+A full-stack **Movie Rating & Review Blog Application** built using the **MERN stack**.  
+This project allows users to explore movies, view ratings, and read detailed descriptions while demonstrating seamless frontend–backend integration.
 
-🚀 Tech Stack
-Frontend
+Designed as an academic project, it showcases real-world MERN development practices.
 
-React.js
+---
 
-React Router DOM
+## 🛠️ Tech Stack
 
-Axios
+**Frontend**
+- React.js  
+- React Router DOM  
+- Axios  
+- Bootstrap / CSS  
 
-CSS / Bootstrap (for styling)
+**Backend**
+- Node.js  
+- Express.js  
 
-Backend
+**Database**
+- MongoDB  
+- Mongoose  
 
-Node.js
+---
 
-Express.js
+## ✨ Features
 
-Database
+- Browse a list of movies with ratings  
+- View detailed movie information  
+  - Title  
+  - Genre  
+  - Cast  
+  - Rating  
+  - Description  
+- RESTful API architecture  
+- Dynamic routing for movie pages  
+- Clean separation of frontend and backend  
+- Scalable and modular code structure  
 
-MongoDB
+---
 
-Mongoose
+## 📂 Project Structure
+Movie_Rating_Application/
+│
+├── Backend/
+│ ├── models/ # Database schemas
+│ ├── controllers/ # Business logic
+│ ├── routes/ # API routes
+│ ├── server.js # Backend entry point
+│
+├── Frontend/
+│ ├── src/
+│ │ ├── components/ # Reusable UI components
+│ │ ├── pages/ # Page-level components
+│ │ ├── App.js
+│ │ └── index.js
+│
+├── .gitignore
+├── package.json
+└── README.md
 
-✨ Features
-
-Display a list of movies with ratings
-
-View detailed movie information
-
-Movie name
-
-Genre
-
-Cast
-
-Rating
-
-Description
-
-RESTful APIs for movie data
-
-Dynamic routing for individual movie pages
-
-Clean separation of frontend and backend
-
-Scalable project structure following MERN best practices
-
-⚙️ Installation & Setup
-1️⃣ Clone the repository
-git clone https://github.com/Prathamesh02092004/Movie_Rating_Application.git
-cd Movie_Rating_Application
-
-2️⃣ Backend Setup
-cd Backend
-npm install
-
-
-Create a .env file inside the Backend folder:
-
-PORT=4000
-MONGO_URI=your_mongodb_connection_string
-
-
-Start the backend server:
-
-npm start
-
-3️⃣ Frontend Setup
-cd ../Frontend
-npm install
-npm start
-
-
-Frontend will run on:
-
-http://localhost:3000
-
-
-Backend will run on:
-
-http://localhost:4000
 
 🔗 API Endpoints
-Method	Endpoint	Description
-GET	/movies	Fetch all movies
-GET	/movies/:id	Fetch movie by ID
-POST	/movies	Add a new movie
-PUT	/movies/:id	Update movie details
-DELETE	/movies/:id	Delete a movie
-🧠 Learning Outcomes
+-Method	Endpoint	Description
+--GET	/movies	Fetch all movies
+--GET	/movies/:id	Fetch movie by ID
+--POST	/movies	Add a new movie
+--PUT	/movies/:id	Update movie details
+--DELETE	/movies/:id	Delete a movie
 
-Understanding MERN stack architecture
 
-REST API design using Express
+##🌐 Running Application
 
-MongoDB schema design with Mongoose
+-Frontend: http://localhost:3000
+-Backend: http://localhost:4000
 
-React state management and routing
 
-Connecting frontend and backend using Axios
+##🧠 Learning Outcomes
 
-Handling real-world Git & GitHub workflows
+-MERN stack application architecture
+-REST API development using Express
+-MongoDB schema design with Mongoose
+-React routing and component-based UI
+-Frontend–backend integration using Axios
+-Practical Git & GitHub workflow experience
 
-🔮 Future Enhancements
+##🚀 Future Enhancements
 
-User authentication (Login & Signup)
-
-User-submitted movie reviews
-
-Average rating calculation
-
-Admin dashboard for movie management
-
-Search and filter movies
-
-Deployment using Render / Vercel / MongoDB Atlas
+-User authentication (Login & Signup)
+-User reviews and comments
+-Average rating calculation
+-Search and filter functionality
+-Admin dashboard
+-Deployment on cloud platforms
