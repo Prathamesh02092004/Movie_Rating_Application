@@ -3,23 +3,23 @@
 A full-stack **Movie Rating & Review Blog Application** built using the **MERN stack**.  
 This project allows users to explore movies, view ratings, and read detailed descriptions while demonstrating seamless frontend–backend integration.
 
-Designed as an academic project, it showcases real-world MERN development practices.
+Designed as an academic project, it showcases real-world **MERN development practices** and clean project architecture.
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend**
+### Frontend
 - React.js  
 - React Router DOM  
 - Axios  
 - Bootstrap / CSS  
 
-**Backend**
+### Backend
 - Node.js  
 - Express.js  
 
-**Database**
+### Database
 - MongoDB  
 - Mongoose  
 
@@ -28,7 +28,7 @@ Designed as an academic project, it showcases real-world MERN development practi
 ## ✨ Features
 
 - Browse a list of movies with ratings  
-- View detailed movie information  
+- View detailed movie information:
   - Title  
   - Genre  
   - Cast  
@@ -42,13 +42,14 @@ Designed as an academic project, it showcases real-world MERN development practi
 ---
 
 ## 📂 Project Structure
+
 Movie_Rating_Application/
 │
 ├── Backend/
 │ ├── models/ # Database schemas
 │ ├── controllers/ # Business logic
 │ ├── routes/ # API routes
-│ ├── server.js # Backend entry point
+│ └── server.js # Backend entry point
 │
 ├── Frontend/
 │ ├── src/
@@ -62,35 +63,44 @@ Movie_Rating_Application/
 └── README.md
 
 
-🔗 API Endpoints
--Method	Endpoint	Description
---GET	/movies	Fetch all movies
---GET	/movies/:id	Fetch movie by ID
---POST	/movies	Add a new movie
---PUT	/movies/:id	Update movie details
---DELETE	/movies/:id	Delete a movie
+---
 
+## 🌐 Running the Application
 
-##🌐 Running Application
+- **Frontend:** http://localhost:3000  
+- **Backend:** http://localhost:4000  
 
--Frontend: http://localhost:3000
--Backend: http://localhost:4000
+---
 
+## 🔗 API Endpoints
 
-##🧠 Learning Outcomes
+| Method | Endpoint        | Description              |
+|------|----------------|--------------------------|
+| GET  | `/movies`       | Fetch all movies         |
+| GET  | `/movies/:id`   | Fetch movie by ID        |
+| POST | `/movies`       | Add a new movie          |
+| PUT  | `/movies/:id`   | Update movie details     |
+| DELETE | `/movies/:id` | Delete a movie           |
 
--MERN stack application architecture
--REST API development using Express
--MongoDB schema design with Mongoose
--React routing and component-based UI
--Frontend–backend integration using Axios
--Practical Git & GitHub workflow experience
+---
 
-##🚀 Future Enhancements
+## 🧠 Learning Outcomes
 
--User authentication (Login & Signup)
--User reviews and comments
--Average rating calculation
--Search and filter functionality
--Admin dashboard
--Deployment on cloud platforms
+- MERN stack application architecture  
+- REST API development using Express  
+- MongoDB schema design with Mongoose  
+- React routing and component-based UI  
+- Frontend–backend integration using Axios  
+- Practical Git & GitHub workflow experience  
+
+---
+
+## 🚀 Future Enhancements
+
+- User authentication (Login & Signup)  
+- User reviews and comments  
+- Average rating calculation  
+- Search and filter functionality  
+- Admin dashboard  
+- Deployment on cloud platforms  
+
